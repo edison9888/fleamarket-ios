@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_FleaMarket_Release_KNSemiModalViewController : NSObject
+@end
+@implementation PodsDummy_Pods_FleaMarket_Release_KNSemiModalViewController
+@end

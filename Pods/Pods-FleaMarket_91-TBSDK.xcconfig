@@ -1,0 +1,2 @@
+PODS_FLEAMARKET____TBSDK_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/libs/Frameworks/TBSDK"
+PODS_FLEAMARKET____TBSDK_OTHER_LDFLAGS = -framework LoginSDK -framework PushCenterSDK -framework SSOLoginSDK -framework TBSDKNetworkSDK -framework TBSecuritySDK

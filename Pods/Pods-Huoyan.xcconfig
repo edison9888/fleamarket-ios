@@ -1,0 +1,2 @@
+PODS_HUOYAN_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/libs/Frameworks/Huoyan"
+PODS_HUOYAN_OTHER_LDFLAGS = -framework TBScanLib -framework huoyan

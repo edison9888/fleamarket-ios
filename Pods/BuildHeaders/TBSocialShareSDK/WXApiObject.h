@@ -1,0 +1,1 @@
+../../TBSocialShareSDK/TBSocialShareSDK/TBSocialShare/ThirdPartySDK/WeiChat/WXApiObject.h

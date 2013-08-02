@@ -1,0 +1,65 @@
+//
+// Prefix header for all source files of the 'FleaMarket' target in the 'FleaMarket' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef DEBUG
+#define FLEAMARKET_DEBUG
+#define TBRO_DEBUG
+#define TBMB_DEBUG
+#endif
+
+#ifdef DAILY
+
+#warning "it is a Daily env!"
+#define DAILY_SERVER_TEST  1
+#define TEST_ENV  1
+
+#elif defined(PRERELEASE)
+
+#warning "it is a pre Release env!"
+#define PREPARE_SERVER_TEST  1
+#define TEST_ENV  1
+
+#elif defined(TESTRELEASE)
+
+#warning "it is a test Release env!"
+#define TEST_ENV  1
+
+#endif
+
+#ifdef __OBJC__
+
+#ifdef FLEAMARKET_DEBUG
+#define FMLOG(msg, args...) NSLog(@"[Fleamarket] " msg, ##args)
+#define FMLog(msg, args...) NSLog(@"[Fleamarket] " msg, ##args)
+#else
+#define FMLOG(msg, args...)
+#define FMLog(msg, args...)
+#endif
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "FMGlobal.h"
+#import "FMEnv.h"
+#import "extobjc.h"
+#import "TBIUConvertDefine.h"
+
+#endif
+
+
+#ifdef FLEAMARKET_DEBUG
+#define  MESSAGE_LOOP_TIME (5*60)
+#else
+#define  MESSAGE_LOOP_TIME (5*60)
+#endif
+
+
+#define _AFNETWORKING_PREFER_NSJSONSERIALIZATION_ 1
+
+

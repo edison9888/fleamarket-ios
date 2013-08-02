@@ -1,0 +1,1 @@
+../../TBSocialShareSDK/TBSocialShareSDK/TBSocialShare/TBSocialShareClass/_model/TBSocialShareWeChatModel.h

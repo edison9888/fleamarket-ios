@@ -1,0 +1,1 @@
+../../TBSocialShareSDK/TBSocialShareSDK/TBSocialShare/ThirdPartySDK/GTDouban/GTDoubanAuthor.h

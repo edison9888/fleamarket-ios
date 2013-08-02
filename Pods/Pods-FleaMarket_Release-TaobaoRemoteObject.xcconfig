@@ -1,0 +1,1 @@
+PODS_FLEAMARKET_RELEASE_TAOBAOREMOTEOBJECT_OTHER_LDFLAGS = -framework MobileCoreServices -framework Security -framework SystemConfiguration

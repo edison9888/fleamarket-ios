@@ -1,0 +1,258 @@
+PODS:
+  - AFNetworking (1.3.1)
+  - ASIHTTPRequest (1.8.1):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/S3
+    - Reachability
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/CloudFiles (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.1):
+    - Reachability
+  - BlocksKit (1.8.2):
+    - libffi
+  - FMDB/common (2.1)
+  - FMDB/standard (2.1):
+    - FMDB/common
+  - HPGrowingTextView (0.0.1)
+  - Huoyan (1.0.0)
+  - iOS_Util (0.10.0):
+    - iOS_Util/AMR
+    - iOS_Util/Bean
+    - iOS_Util/Cache
+    - iOS_Util/Common
+    - iOS_Util/Core
+    - iOS_Util/DB
+    - iOS_Util/Json
+    - iOS_Util/Location
+    - iOS_Util/Preference
+    - iOS_Util/WebP
+  - iOS_Util/AMR (0.10.0)
+  - iOS_Util/Bean (0.10.0):
+    - iOS_Util/Core
+  - iOS_Util/Cache (0.10.0):
+    - iOS_Util/Common
+  - iOS_Util/Common (0.10.0)
+  - iOS_Util/Core (0.10.0):
+    - libextobjc (= 0.2.5)
+  - iOS_Util/DB (0.10.0):
+    - FMDB/standard (~> 2.1)
+    - iOS_Util/Common
+    - iOS_Util/Core
+  - iOS_Util/Json (0.10.0):
+    - iOS_Util/Core
+  - iOS_Util/Location (0.10.0):
+    - iOS_Util/Common
+    - iOS_Util/DB
+  - iOS_Util/Preference (0.10.0):
+    - iOS_Util/Json
+  - iOS_Util/WebP (0.10.0):
+    - libwebp (~> 0.3.0-rc7)
+  - JASidePanels (1.3.2)
+  - JSONKit (1.4)
+  - KLSwitch (1.5)
+  - KNSemiModalViewController (0.3)
+  - libextobjc (0.2.5):
+    - libextobjc/EXTADT
+    - libextobjc/EXTAnnotation
+    - libextobjc/EXTAspect
+    - libextobjc/EXTBlockMethod
+    - libextobjc/EXTBlockTarget
+    - libextobjc/EXTConcreteProtocol
+    - libextobjc/EXTDispatchObject
+    - libextobjc/EXTFinalMethod
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTMaybe
+    - libextobjc/EXTMixin
+    - libextobjc/EXTMultimethod
+    - libextobjc/EXTMultiObject
+    - libextobjc/EXTNil
+    - libextobjc/EXTPassthrough
+    - libextobjc/EXTPrivateMethod
+    - libextobjc/EXTProtocolCategory
+    - libextobjc/EXTSafeCategory
+    - libextobjc/EXTScope
+    - libextobjc/EXTSelectorChecking
+    - libextobjc/EXTSwizzle
+    - libextobjc/EXTSynthesize
+    - libextobjc/EXTTuple
+    - libextobjc/EXTVarargs
+    - libextobjc/NSInvocation+EXT
+    - libextobjc/NSMethodSignature+EXT
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+  - libextobjc/EXTADT (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTAnnotation (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTAspect (0.2.5):
+    - libextobjc/RuntimeExtensions
+    - libffi
+  - libextobjc/EXTBlockMethod (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTBlockTarget (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTDispatchObject (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTFinalMethod (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTMaybe (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTMixin (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTMultimethod (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTMultiObject (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTPassthrough (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTPrivateMethod (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTProtocolCategory (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSwizzle (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTTuple (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTVarargs (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.2.5)
+  - libextobjc/UmbrellaHeader (0.2.5)
+  - libffi (3.0.13)
+  - libwebp (0.3.0-rc7):
+    - libwebp/dec
+    - libwebp/dsp
+    - libwebp/utils
+    - libwebp/webp
+  - libwebp/dec (0.3.0-rc7)
+  - libwebp/dsp (0.3.0-rc7)
+  - libwebp/utils (0.3.0-rc7)
+  - libwebp/webp (0.3.0-rc7)
+  - MBMvc (1.0.0)
+  - MBProgressHUD (0.7)
+  - Reachability (3.1.1)
+  - Resources (1.0.0)
+  - RSA (1.0.0)
+  - RTLabel (1.0)
+  - SDWebImage (3.3):
+    - libwebp
+    - SDWebImage/MapKit
+  - SDWebImage/MapKit (3.3):
+    - libwebp
+  - SFHFKeychainUtils (0.0.1)
+  - TaobaoRemoteObject (2.0):
+    - AFNetworking (~> 1.3.0)
+    - iOS_Util/Common (= 0.10.0)
+    - iOS_Util/Json (= 0.10.0)
+    - libextobjc (= 0.2.5)
+  - TBSDK (1.0.0):
+    - ASIHTTPRequest (~> 1.8.1)
+    - JSONKit (= 1.4)
+    - Reachability (~> 3.1.0)
+  - TBSocialShareSDK (0.1):
+    - TBSocialShareSDK/douban
+    - TBSocialShareSDK/shareClass
+    - TBSocialShareSDK/sinas
+    - TBSocialShareSDK/weixin
+  - TBSocialShareSDK/douban (0.1):
+    - SFHFKeychainUtils
+  - TBSocialShareSDK/shareClass (0.1)
+  - TBSocialShareSDK/sinas (0.1):
+    - SFHFKeychainUtils
+  - TBSocialShareSDK/weixin (0.1)
+  - TTTAttributedLabel (1.7.1)
+  - UserTrack (2.0.0)
+
+DEPENDENCIES:
+  - BlocksKit (~> 1.8)
+  - HPGrowingTextView (from `libs/Sources/HPGrowingTextView`)
+  - Huoyan (from `libs/Frameworks/Huoyan`)
+  - iOS_Util (from `git@gitlab.alibaba-inc.com:tbw/ios_util.git`)
+  - JASidePanels (~> 1.3.1)
+  - KLSwitch (~> 1.1)
+  - KNSemiModalViewController (~> 0.3)
+  - MBMvc (from `git@github.com:alibaba/MBMvc.git`)
+  - MBProgressHUD (~> 0.6)
+  - Resources (from `Resources`)
+  - RSA (from `libs/Sources/RSA`)
+  - RTLabel (~> 1.0)
+  - SDWebImage (~> 3.2)
+  - SFHFKeychainUtils (~> 0.0.1)
+  - TaobaoRemoteObject (from `git@gitlab.alibaba-inc.com:tbremoteobject.git`)
+  - TBSDK (from `libs/Frameworks/TBSDK`)
+  - TBSocialShareSDK (from `git@gitlab.alibaba-inc.com:tbw/tbsocialsharesdk.git`)
+  - TTTAttributedLabel (~> 1.7)
+  - UserTrack (from `libs/Frameworks/UserTrack`)
+
+EXTERNAL SOURCES:
+  HPGrowingTextView:
+    :path: libs/Sources/HPGrowingTextView
+  Huoyan:
+    :path: libs/Frameworks/Huoyan
+  iOS_Util:
+    :git: git@gitlab.alibaba-inc.com:tbw/ios_util.git
+  MBMvc:
+    :git: git@github.com:alibaba/MBMvc.git
+  Resources:
+    :path: Resources
+  RSA:
+    :path: libs/Sources/RSA
+  TaobaoRemoteObject:
+    :git: git@gitlab.alibaba-inc.com:tbremoteobject.git
+  TBSDK:
+    :path: libs/Frameworks/TBSDK
+  TBSocialShareSDK:
+    :git: git@gitlab.alibaba-inc.com:tbw/tbsocialsharesdk.git
+  UserTrack:
+    :path: libs/Frameworks/UserTrack
+
+SPEC CHECKSUMS:
+  AFNetworking: 9ec8aafb9269236a7630bd8d9838ce2ba30fa2a0
+  ASIHTTPRequest: a411b8d0f006ed8fc24248be6a0c4ad2abc9b101
+  BlocksKit: 7396526b0816734103f6133fbb1a520c8b04e80c
+  FMDB: 66010e9b750838dea71748df591fc118598f21c7
+  HPGrowingTextView: 230a8aee7979cd8b9888c7b4b62268652708c13b
+  Huoyan: c2c740ba68862c6a11494528059b81d25bbad68a
+  iOS_Util: 02716a2e94bb3b890b21780607682bb7f625450a
+  JASidePanels: c0e642a7311ec9cc9adfa616fa4a795e4e169f20
+  JSONKit: 0e3367114e2799047082628156e09893d8268f91
+  KLSwitch: 27e07101397ce250acbf6c3a65349cdf69f4bcec
+  KNSemiModalViewController: 976b739f57aa595359a2cfdf6aadde991ada8f99
+  libextobjc: 2cbc74caf8bdc74a86fdf24673f773c83424ea98
+  libffi: 64ef39353e747bb2b25e1026afd96a157bf9231c
+  libwebp: 40517fa1fd3716eded73b4696c45fc0b66e4b414
+  MBMvc: 012b6d90cf1fe4713a28e7738986b997f0cc1b85
+  MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
+  Reachability: 2be6bc2fd2bd31d97f5db33e75e4b29c79e95883
+  Resources: 2af53e170dfea0f26f3ce5dc2edf4422153c9d64
+  RSA: bbccc1df9df68bf8bf08bdcf791f205e75258e3a
+  RTLabel: 124420c05d7897bf7f14b75a26f54f2932ac4ca5
+  SDWebImage: 79a8bac9ccf85b269100b294f7b43684dab8bf8a
+  SFHFKeychainUtils: e828dbd9eaa509486acf95d8de2ebd414c4b7451
+  TaobaoRemoteObject: c788b0958a404d04747e4fa2e412c218db023637
+  TBSDK: f6a50dfd8b2bd6591594092ffd8c8f79af681c99
+  TBSocialShareSDK: 192926843266dc028e1bbb7fc56068f713cc985c
+  TTTAttributedLabel: e504133915a9b11de63cb470ffa2790383a3eb23
+  UserTrack: 0cfd563baccb8aaf4e1fea3b22c8c0607d9de980
+
+COCOAPODS: 0.22.3

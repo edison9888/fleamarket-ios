@@ -1,0 +1,2 @@
+PODS_FLEAMARKET_RELEASE_USERTRACK_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/libs/Frameworks/UserTrack"
+PODS_FLEAMARKET_RELEASE_USERTRACK_OTHER_LDFLAGS = -framework CoreTelephony -framework Security -framework SystemConfiguration -framework UT -weak_framework AdSupport

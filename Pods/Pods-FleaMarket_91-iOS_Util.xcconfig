@@ -1,0 +1,2 @@
+PODS_FLEAMARKET____IOS_UTIL_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/iOS_Util/iOS_Util/AMR/lib"
+PODS_FLEAMARKET____IOS_UTIL_OTHER_LDFLAGS = -lopencore-amrnb -lopencore-amrwb -framework CoreGraphics -framework CoreLocation -framework MapKit
